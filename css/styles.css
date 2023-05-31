@@ -7,7 +7,8 @@
 }
 body {
   min-height: 100vh;
-  background: url("https://digitshack.com/codepen/bmical/bg.png");
+  /*background: url("https://digitshack.com/codepen/bmical/bg.png");*/
+  background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Nunito", sans-serif;
@@ -19,13 +20,21 @@ body {
   transform: translate(-50%, 0%);
 }
 .box {
-  min-width: 400px;
+  min-width: 300px;
   background: #fafafa;
   border-radius: 38px;
   text-align: center;
   position: relative;
   margin-bottom: 150px;
 }
+
+/*Media mobile*/
+@media only screen and (max-width : 900px) {
+    
+    }
+
+
+
 .box::before {
   content: "";
   position: absolute;
