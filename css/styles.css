@@ -34,6 +34,15 @@ body {
 
 /*Media mobile*/
 @media (max-width: 768px) {
+  .box {
+    min-width: 300px;
+    background: #fafafa;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 150px;
+    margin-top: -150px;
+  }
     
 }
 
