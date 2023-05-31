@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>CALCULADORA DE MATERIALES</title>
+</head>
+<body>
+    <div class="container">
+  <div class="box">
+    <h1>Standard Extrafuerte</h1>
+    <img class="imagen" src="/assets/standard-extrafuerte.png" alt="">
+    <div class="content">
+      <div class="input">
+        <label for="height">Área(m2)</label>
+        <input type="number" id="height">
+      </div>
+      <div class="input">
+        <label for="weight">Espesor(mm)</label>
+        <input type="number" id="weight">
+      </div>
+      <button id="calculate">Calcular</button>
+    </div>
+    <div class="result">
+      <p>La cantad es</p>
+      <div id="result">00</div>
+      <p class="comment"></p>
+    </div>
+  </div>
+</div>
+  <script src="/js/calculadora.js"></script>
+</body>
+</html>
