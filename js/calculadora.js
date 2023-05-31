@@ -11,9 +11,12 @@ btn.addEventListener("click", function () {
 
   // BMI = weight in KG / (height in m * height in m)
 
-  height = height / 100;
+  //height = height / 100;
 
-  let BMI = weight / (height * height);
+
+  //let BMI = weight / (height * height);
+
+  let BMI = weight  * height;
 
   BMI = BMI.toFixed(0);
 

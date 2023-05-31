@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
+
 body {
   min-height: 100vh;
   /*background: url("https://digitshack.com/codepen/bmical/bg.png");*/
@@ -22,16 +25,52 @@ body {
 .box {
   min-width: 300px;
   background: #fafafa;
-  border-radius: 38px;
+  border-radius: 20px;
   text-align: center;
   position: relative;
   margin-bottom: 150px;
+  margin-top: -210px;
 }
 
 /*Media mobile*/
-@media only screen and (max-width : 900px) {
+@media (max-width: 768px) {
     
-    }
+}
+
+.menu{
+  
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+li{
+  width: 60px;
+  padding-right: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: #0044ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+a:hover{
+  color:rgb(99, 118, 155);
+}
+
+
+
+.logo img{
+  width: 100px;
+}
 
 
 
@@ -44,7 +83,7 @@ body {
   top: -5%;
   background-color: rgb(255,186,0);
   box-shadow: 0px 0px 166px -31px rgba(0, 0, 0, 0.15);
-  border-radius: 60px;
+  border-radius: 20px;
   z-index: -1;
 }
 h1 {
