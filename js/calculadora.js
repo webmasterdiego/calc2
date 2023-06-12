@@ -2,13 +2,17 @@ const btn = document.getElementById("calculate");
 
 btn.addEventListener("click", function () {
   let height = document.querySelector("#height").value;
-  let weight = document.querySelector("#weight").value;
+  //let weight = document.querySelector("#weight").value;
 
-  if (height == "" || weight == "") {
+ /*  if (height == "" || weight == "") {
+    alert("Por favor ingrese la cantidad!");
+    return;
+  }*/
+  
+  if (height == "") {
     alert("Por favor ingrese la cantidad!");
     return;
   }
-
   // BMI = weight in KG / (height in m * height in m)
 
   //height = height / 100;
@@ -16,11 +20,15 @@ btn.addEventListener("click", function () {
 
   //let BMI = weight / (height * height);
 
-  let BMI = weight  * height;
+  let BMI = height  / 3;
 
-  BMI = BMI.toFixed(0);
+  BMI = BMI.toFixed(2);
+   Result = Math.ceil(BMI)
+  document.querySelector("#result").innerHTML = Result;
 
-  document.querySelector("#result").innerHTML = BMI;
+  document.querySelector(
+    ".comment"
+  ).innerHTML = `Sacos de 25 <span id="comment">KG</span>`;
 
   /*let status = "";
 
