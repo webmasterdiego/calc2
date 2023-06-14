@@ -12,7 +12,7 @@
 
 body {
   min-height: 100vh;
-  background: url("/assets/colocacion-baldosas-ceramicas-aplicar-mortero-llana-sobre-piso-concreto-como-preparacion-colocacion-baldosas-blancas.jpg");
+  background: url("/assets/fondo.jpg");
   /*background-color: #fff;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body {
     text-align: center;
     position: relative;
     margin-bottom: 150px;
-    margin-top: -400px;
+    margin-top: -270px;
   }
 
   .logo img{
